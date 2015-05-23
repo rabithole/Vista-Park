@@ -1,0 +1,51 @@
+body {
+	background-image: url(../images/historic/fishing2.jpg);
+	background-position: center;
+	background-size: 100% 120%;
+	background-attachment: fixed;
+	font-family: arimo;
+	
+}
+
+nav {
+	position: relative;
+	margin-top: -20px;
+	margin-right: ;
+	margin-left: ;
+	left: 115px;
+}
+
+h1 {
+	position: relative;
+	clear: both;
+	text-align: center;
+	top: 50px;
+	text-shadow: 2px 2px 2px #fff;
+	font-size: 2.5em;
+}
+
+article {
+	margin: 100px auto 0 auto;
+	width: 800px;	
+	border: 3px solid #000;
+	background-color: rgba(153,153,153,.6);
+	box-shadow: 5px 5px 50px #000;
+}
+
+#noindent {
+	text-indent: 0;
+}
+
+p {
+	text-indent: 25px;
+	width: 700px;
+	margin: 20px auto 20px auto; 
+}
+
+img {
+	margin: 0 0 0 90px;
+	background-color: #000;
+	padding: 15px;
+	border: 4px solid #999;
+	box-shadow: 5px 5px 20px #000;
+}

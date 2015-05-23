@@ -1,0 +1,257 @@
+body {
+	position: relative;
+	font-family: arimo;
+}
+
+nav {
+	position: relative;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 65px;
+	z-index: 4000;
+}
+
+@font-face {
+	font-family: arimo;
+	src: url(../fonts/arimo-regular-webfont.eot),
+	url(../fonts/arimo-regular-webfont.svg),
+	url(../fonts/arimo-regular-webfont.ttf),
+	url(../fonts/arimo-regular-webfont.woff);
+}
+
+/**** Level 1 ****/
+.sf-menu,.sf-menu *	{
+	position: relative;
+	list-style:	none;
+	}
+
+.sf-menu	{
+	position: relative;
+/*	background-color: rgba(204,51,0,.5); */
+	font-family: arimo;
+	font-size: 20px;
+	padding: 0;
+	}
+
+.sf-menu li	{
+	float: left;
+	position: relative;
+	background-color: rgba(204,51,0,.5); 
+/*	background-color: rgba(138,10,10,.5); /* main background color ********************************************************************************/
+	height: 75px;
+	box-shadow: 3px 3px 15px #000;
+	text-align: center;
+}
+
+.sf-menu >li:first-child {
+	border-bottom-left-radius: 40px;	
+}
+
+.sf-menu >li:last-child {
+	border-bottom-right-radius: 40px;	
+}
+
+.sf-menu li.sfHover,
+.sf-menu li:hover	{
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+	}
+
+.sf-menu li.sfHover,
+.sf-menu li:hover	{
+	}
+
+.sf-menu a	{
+	border-left: 1px solid transparent; 
+	border-right: 1px solid transparent;  
+	display: block; 
+	padding: 28px 14px; 
+	position: relative;  
+	width: 98px;
+	text-decoration: none;
+	color: rgba(255,255,0,1); /* Main nav text color ******************************************************************************/
+}
+
+.sf-menu li.sfHover a,
+.sf-menu li:hover a	{
+/*	background: #DF6EA5; */
+	background-color: rgb(200, 91, 93); /* Drop down hover color */
+	border-color: #fff;
+	color: #fff; /* Text drop down hover color ***************************************************************************/
+	outline: 0;
+	}
+
+/***** Level 2 ****/
+.sf-menu ul	{
+	background: rgba(223,110,165,1); 
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border: 1px solid #a22361;
+	border-top: 0 none;
+	margin: 0; 
+	padding: 0; 
+	position: absolute; 
+	top: -999em; 
+	left: 0; 
+	width: 128px; 
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+	font-size: 14px;
+	font-weight: ;
+	font-family: arimo;
+	}
+
+.sf-menu ul li	{
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	display: block;
+	float: none;
+	padding-top: 15px;
+	}
+
+.sf-menu ul li:last-child	{
+	border-bottom: 1px solid #fff;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	}
+
+.sf-menu ul li:last-child a	{
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	}
+
+.sf-menu li.sfHover li.sfHover,
+.sf-menu li:hover li:hover	{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	}
+
+.sf-menu li.sfHover li.sfHover	{
+	border-right-color: #cb2d79
+	}
+
+.sf-menu li li a	{
+	border: 0 none;
+	padding: 14px;
+	}
+
+.sf-menu li li:first-child a	{
+	padding-top: 0;
+	}
+
+.sf-menu li li a:hover	{
+	color: #000;
+	}
+
+.sf-menu li.sfHover li a,
+.sf-menu li:hover li a	{
+	background: transparent;
+	}
+
+.sf-menu li.sfHover ul,
+.sf-menu li:hover ul	{
+	left: -1px;
+	top: 70px; /* match top ul list item height */
+	z-index: 99;
+	}
+
+.sf-menu li li.sfHover,
+.sf-menu li li:hover	{
+	background: ;
+	border-color: #fff;
+	}
+
+/**** Level 3 ****/
+ul.sf-menu li.sfHover li ul,
+ul.sf-menu li:hover li ul	{
+	background: rgb(213, 81, 82);
+	top: -999em;
+	-webkit-border-radius: 7px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 7px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 7px;
+	border-top-left-radius: 0;
+	}
+
+ul.sf-menu li.sfHover li ul li,
+ul.sf-menu li:hover li ul li	{
+	background: transparent;
+	border: 0 none;
+	}
+
+ul.sf-menu li li.sfHover ul,
+ul.sf-menu li li:hover ul	{
+	left: 9em; /* match ul width */
+	top: 0;
+	}
+
+.sf-menu li.sfHover li.sfHover li a,
+.sf-menu li:hover li:hover li a	{
+	background: transparent;
+	}
+
+.sf-menu li li li:first-child a	{
+	padding-top: 14px;
+	}
+
+.sf-menu li li li a:hover	{
+	background: transparent;
+	color: #000;
+	}
+/*
+#reserve {
+	position: fixed;
+	margin-top: 15%;
+	background-color: rgba(204,204,204,.7);
+	font-size: 24px;
+	padding: 10px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	left: -8px;
+	font-weight: 700;
+	float: left;
+	box-shadow: 5px 5px 25px #000;
+	padding-left: 20px;
+	z-index: 1000;
+}
+*/
+#reserveLink {
+
+}
+
+#reserve {
+	margin-left: 20%;
+	z-index: 300;
+	width: 450px;	
+}
+
+#reserve a {
+	padding: 0px 30px 5px 30px;
+	margin-right: 10px;
+	background-color: rgba(105, 105, 105, .5);
+	font-size: 1.5em;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px; 
+	box-shadow: 5px 5px 15px #000;
+	text-decoration: none;
+	color: rgba(250,250,250,1);
+}
+
+#reserve a:hover {
+	color: #C00;
+}	

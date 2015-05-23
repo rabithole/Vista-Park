@@ -1,0 +1,41 @@
+/* CSS Document */
+
+body {
+	overflow-x: hidden;
+}
+
+footer {
+	border-top: 5px solid #fff;
+	position: relative;
+	height: 70px;
+	width: 101%;
+	left: -10px;
+	background-color: rgba(51,51,51,1);
+	margin-bottom: -8px;
+	color: #fff;
+}
+
+table {
+	margin-left: 20%;
+}
+
+td {
+	padding: 0 30px;
+	border-right: 1px solid #fff;
+}
+table a {
+	text-decoration: none;
+	color: #fff;
+}
+
+table a:hover {
+	color: rgba(204,51,51,1);
+}
+
+footer p {
+	position: inherit;
+	color: #fff;
+	width: inherit;
+	height: 10px;
+	text-shadow: none;
+}

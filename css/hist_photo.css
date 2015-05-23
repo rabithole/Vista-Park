@@ -1,0 +1,45 @@
+/* CSS Document */
+
+body {
+	background-color: rgba(157,154,145,1);
+	width: 900px;
+	margin: 30px auto 30px auto;
+}
+
+article {
+	display: inline-block;
+	position: relative;
+}
+
+article img {
+	float: left;
+	background-color: #000;
+	padding: 10px;
+	margin: 50px 0 10px 0;
+	border-radius: 15px;
+	box-shadow: 5px 5px 25px #fff;
+}
+
+nav {
+	margin: -30px 0 0 0;
+}
+
+article p{
+	position: relative;
+	margin: 70px 0 0 550px;
+}
+
+.clear_pan {
+	position: relative;
+	clear: both;
+	margin: 320px 0 10px 30px;
+}
+
+#redmen {
+	margin: 10px 0 0 20px;
+}
+
+#left {
+	margin: 10px 200px 0 0;
+}
+

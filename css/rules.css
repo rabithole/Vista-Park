@@ -1,0 +1,78 @@
+/* CSS Document */
+
+body {
+	font-family: arimo;
+	background-image: url(../images/backgrounds/rules_background.jpg);
+	background-position: center;
+	background-size: 100% 120%;
+	background-attachment: fixed;
+	font-size: 1.1em;
+	
+}
+
+@font-face {
+	font-family: arimo;
+	src: url(../fonts/arimo-regular-webfont.eot),
+	url(../fonts/arimo-regular-webfont.svg),
+	url(../fonts/arimo-regular-webfont.ttf),
+	url(../fonts/arimo-regular-webfont.woff);
+}
+
+nav {
+	margin-top: -30px;
+}
+
+article {
+	position: relative;
+	display: !important;
+	width: 700px;
+	left: -10px;
+	top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+span {
+	
+}
+
+p {
+	position: relative;
+	clear: both;
+	top: 50px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(153,0,0,.7);
+	padding: 10px;
+	border-radius: 15px;
+	color: rgba(204,204,204,1);
+	text-shadow: 1px 1px 1px #000;
+	box-shadow: 5px 5px 15px #000;
+}
+
+ol {
+	position: relative;
+	clear: both;
+	left: 50px;
+	top: 50px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.red {
+	color: rgba(255,51,0,1);
+	background-color: rgba(0,0,0,.7);
+	padding: 2px;
+	border-radius: 10px;
+}

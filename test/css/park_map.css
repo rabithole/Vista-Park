@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/grass_to_ocean.jpg);
+	background-position: center;
+	background-size: 100% 120%;
+	background-attachment: fixed;
+	font-family: arimo;
+}
+
+@font-face {
+	font-family: arimo;
+	src: url(../fonts/arimo-regular-webfont.eot),
+	url(../fonts/arimo-regular-webfont.svg),
+	url(../fonts/arimo-regular-webfont.ttf),
+	url(../fonts/arimo-regular-webfont.woff);
+}
+
+nav {
+	position: relative;
+	margin-top: -20px;
+}
+
+article {
+	position: relative;
+	width: 900px;
+	height: 1300px;
+	background-color: rgba(204,204,204,.7);
+	margin: 0 auto 0 auto;	
+	border-left: 5px solid #000;
+	border-right: 5px solid #000;
+}
+
+img {
+	margin-top: 10%;
+}
+
+
+
+#map_text {
+	font-size: 22px;
+	width: 700px;
+	margin: 50px auto 20px auto;
+	background-color: rgba(0,153,255,.5);
+	padding: 15px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 25px #000;
+}
+
+

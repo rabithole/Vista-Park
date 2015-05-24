@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+figure { /****  Logo Image   ****/
+	position: absolute;
+	right: 5%;
+	top: 30%;	rgba(255,255,0,1);
+}
+
+#small_logo {
+	float: right;
+	margin: -1200px 2% 0 0;
+}
+
+/* RV, TENT & YURT PAGE IMAGES */
+#camp_sites_img {
+	display: inline-block;
+	margin: 50px 0 0 0;
+	width: 900px;
+}
+
+#camp_sites_img img {
+	display: block;
+	float: left;
+	margin: 0 25px 25px 10px;
+	background-color: rgba(155, 179, 213,1);
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 35px #000;
+}
+
+#portrait_image {
+	padding-right: 75px;
+}
+
+#camp_sites_img p {
+	text-align: ;
+	float: right;
+	text-indent: 25px;
+}
+
+
+
+
+

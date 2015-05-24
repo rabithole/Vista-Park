@@ -1,0 +1,52 @@
+body {
+	background-image: url(../images/google_map_background.jpg);
+	background-position: center;
+	background-size: 100% 120%;
+	background-attachment: fixed;
+}
+
+nav {
+	position: relative;
+	margin-top: -20px;
+}
+
+article {
+	position: relative;
+	width: 900px;
+	height: 1000px;
+	background-color: rgba(204,204,204,.7);
+	margin: 0 auto 0 auto;	
+	border-left: 5px solid #000;
+	border-right: 5px solid #000;
+}
+
+#map_canvas {
+	
+	position: relative;
+    width: 700px;
+    height: 600px;
+	margin: 0 auto 0 auto;
+	top: 60px;
+	border: 5px solid #000;
+	box-shadow: 5px 5px 25px #000;
+	display: inline-block;
+	left: 90px;
+}
+
+form {
+	margin: 100px auto 0 100px;
+	border: 5px solid #000;
+	width: 350px;
+	padding: 10px;
+	background-color: rgba(202,223,170,.7);
+	box-shadow: 5px 5px 25px #000;
+}
+
+label {
+	margin-right: 10px;
+}
+
+[type="text"] {
+	border: 2px solid #000;
+	box-shadow: 3px 3px 3px #666;
+}

@@ -1,0 +1,17 @@
+body {
+/*	background-image: url(../images/photos/background.jpg); */
+	background-image: url(../images/photos/Untitled_Panorama1.jpg);
+	width: 8191px;
+	background-position:;
+	background-size: ;
+	background-attachment: ;
+	background-repeat: no-repeat;	
+}
+
+nav {
+	position: relative;
+	margin-top: -20px;
+}
+
+ul.thumb-list		{ margin:20px 0;padding:0;text-align:center; }
+ul.thumb-list li	{ margin:0;padding:0;display:inline-block; }

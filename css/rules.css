@@ -41,10 +41,6 @@ article {
 	float: right;
 }
 
-span {
-	
-}
-
 p {
 	position: relative;
 	clear: both;
@@ -75,4 +71,8 @@ ol {
 	background-color: rgba(0,0,0,.7);
 	padding: 2px;
 	border-radius: 10px;
+}
+
+#reserve a {
+	font-size: 1.4em;
 }

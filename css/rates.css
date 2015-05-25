@@ -20,6 +20,7 @@ body {
 table {
 	border-spacing: 30px;
 	float: left;
+	margin-top: 50px;
 }
 
 td {
@@ -78,5 +79,5 @@ section {
 
 section span {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: ;
 }

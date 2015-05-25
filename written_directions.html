@@ -3,11 +3,11 @@
 <meta charset="utf-8">
 <title>Written Directions</title>
 
+<link rel="stylesheet" type="text/css" href="css/written_directions.css">
+<link rel="stylesheet" href="css/footer.css"/>
 <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
 <!--<link href="css/park_map.css" rel="stylesheet">-->
 <link rel="stylesheet" type="text/css" href="css/images.css"/>
-<link rel="stylesheet" type="text/css" href="css/written_directions.css">
-<link rel="stylesheet" href="css/footer.css"/>
 
 <!--[if lt IE 9]>
 <script src="dist/html5shiv.js"></script>
@@ -26,10 +26,6 @@
 
 </head>
 <body>
-
-<div id="reserve">
-	<a href="reserve.html"><p>Contact Us<br>For Reservations</p></a>
-</div>
 
 <article>
 <nav>
@@ -81,6 +77,15 @@
             </ul>
         </li>
 </ul>
+
+<div id="reserveLink">
+    <div id="reserve" itemscope itemtype="https://schema.org/ReservationStatusType">
+        <a href="reserve.html"><span itemprop="potentialAction">Reservations</span></a>
+        <a href="http://www.wahkiakumportdistrict2.org/" target="blank"><span itemprop="potentialAction">Port District 2</span></a>
+        <a href="http://countyline.vista-park.org/" target="_blank">County Line</a>
+    </div>
+</div>
+
 </nav>
 
 <section>

@@ -13,7 +13,7 @@
 <!--[if lt IE 9]>
 <script src="dist/html5shiv.js"></script>
 <![endif]-->
-<!--
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,13 +24,9 @@
   ga('send', 'pageview');
 
 </script>
--->
+
 </head>
 <body>
-
-<div id="reserve">
-	<a href="reserve.html"><p>Contact Us<br>For Reservations</p></a>
-</div>
 
 <article>
 <nav>
@@ -82,6 +78,15 @@
             </ul>
         </li>
 </ul>
+
+<section id="reserveLink">
+    <div id="reserve" itemscope itemtype="https://schema.org/ReservationStatusType">
+        <a href="reserve.html"><span itemprop="potentialAction">Reservations</span></a>
+        <a href="http://www.wahkiakumportdistrict2.org/" target="blank"><span itemprop="potentialAction">Port District 2</span></a>
+        <a href="http://countyline.vista-park.org/" target="_blank">County Line</a>
+    </div>
+</section>
+
 </nav>
 
 	<img src="images/park_map.png" alt="A map of the park.">

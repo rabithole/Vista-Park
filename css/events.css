@@ -12,7 +12,7 @@ header {
 	position: relative;
 	width: 101%;
 	left: -10px;
-	height: 20em;	
+	height: 25em;	
 	background-image: url(../images/events/big_sky.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -282,5 +282,8 @@ h1 {
 }
 }
 
-
+nav {
+	position: relative;
+	top: ;
+}
 

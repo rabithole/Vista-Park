@@ -17,6 +17,7 @@ figure { /****  Logo Image   ****/
 	display: inline-block;
 	margin: 50px 0 0 0;
 	width: 900px;
+	padding: 5px;
 }
 
 #camp_sites_img img {

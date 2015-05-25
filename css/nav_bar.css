@@ -250,8 +250,14 @@ ul.sf-menu li li:hover ul	{
 	box-shadow: 5px 5px 15px #000;
 	text-decoration: none;
 	color: rgba(250,250,250,1);
+	float: ;
 }
 
 #reserve a:hover {
 	color: #C00;
 }	
+
+span {
+	display: inline;
+	padding: 0;
+}

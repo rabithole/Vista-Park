@@ -5,9 +5,9 @@
 <meta name="description" content="RV camping in Washington State is a glorious experience. The is a reason our state nickname is “The Evergreen State”. Here at Vista Park you can experience the beach, tall trees, fishing or more. Situated in the Lower Columbia River basin you can get a feel for what Lewis & Clark saw several hundred years ago. ">
 <title>RV Sites</title>
 
+<link rel="stylesheet" type="text/css" href="css/rv.css"/>
 <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
 <link rel="stylesheet" type="text/css" href="css/images.css"/>
-<link rel="stylesheet" type="text/css" href="css/rv.css"/>
 <link rel="stylesheet" href="css/footer.css"/>
 <!--<link rel="stylesheet" type="text/css" href="css/reserve_contact.css">-->
 <!-- <link href="css/park_map.css" rel="stylesheet"> -->
@@ -29,10 +29,6 @@
 
 </head>
 <body>
-
-<div id="reserve" itemscope itemtype="https://schema.org/ReservationStatusType">
-	<a href="reserve.html"><p itemprop="potentialAction">Contact Us<br> For Reservations</p></a>
-</div>
 
 <article>
 
@@ -85,6 +81,15 @@
             </ul>
         </li>
 </ul>
+
+<section id="reserveLink">
+    <div id="reserve" itemscope itemtype="https://schema.org/ReservationStatusType">
+        <a href="reserve.html"><span itemprop="potentialAction">Reservations</span></a>
+        <a href="http://www.wahkiakumportdistrict2.org/" target="blank"><span itemprop="potentialAction">Port District 2</span></a>
+        <a href="http://countyline.vista-park.org/" target="_blank">County Line</a>
+    </div>
+</section>
+
 </nav>
 
 <h1 itemscope itemtype="http://schema.org/RVPark">RV Park Camping in <b itemprop="name">Vista Park</b></h1>

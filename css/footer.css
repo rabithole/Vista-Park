@@ -7,7 +7,7 @@ body {
 footer {
 	border-top: 5px solid #fff;
 	position: relative;
-	height: 100px;
+	height: 80px;
 	width: 101%;
 	left: -10px;
 	background-color: rgba(51,51,51,1);
@@ -37,7 +37,7 @@ footer li {
 	border-right: 1px solid #fff;
 	padding-right: 15px;
 	padding-left: 15px;
-	height: 70px;
+	height: 50px;
 }
 
 footer a {
@@ -71,41 +71,72 @@ footer p {
 	}
 }
 
+		/* Park Rulles Css */
+footer dl {
+	list-style-type: none;
+	margin-left: 30%;
+}
 
-/*
-table {
+@media (max-width: 1200px) {
+	footer dl {
+		margin-left: 15%;
+	} 
+}
+
+@media (max-width: 1620px) {
+	footer dl {
+		margin-left: 22%;
+	}
+}
+
+footer dt {
+	float: left;
 	margin-left: ;
-}
-
-td {
-	padding: ;
 	border-right: 1px solid #fff;
-	
-}
-table a {
-	text-decoration: none;
-	color: #fff;
-}
-
-table a:hover {
-	color: rgba(204,51,51,1);
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 50px;
+	font-size: 1em;
 }
 
-footer p {
-	position: inherit;
-	color: #fff;
-	width: inherit;
-	height: 10px;
-	text-shadow: none;
-	background-color: rgba(51,51,51,1);
+#clear_p {
+	background-color:  transparent;
+	position: relative;
+	top: 0px;
 	box-shadow: none;
 }
 
-footer a {
-	
+	/* Events Page Footer Css */
+#align_p {
+	position: relative;
+	top: 0px;
+	left: -2px;
 }
 
-footer p {
-	display: inline;
+footer img {
+	padding: 0px;
 }
-*/
+
+#hist_footer {
+	margin-left: 25%;
+}
+
+@media (max-width: 1650px) {
+	#hist_footer {
+		margin-left: 20%;
+	}
+}
+
+@media (max-width: 1450px) {
+	#hist_footer {
+		margin-left: 15%;
+	}
+}
+
+@media (max-width: 1250px) {
+	#hist_footer {
+		margin-left: 5%;
+	}
+}
+
+/* Written Directions Css */

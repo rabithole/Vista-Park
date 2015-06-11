@@ -51,7 +51,27 @@ footer a:hover {
 
 footer p {
 	display: inline;
+	font-size: 1em;
+	color: #fff;
 }
+
+#history_html {
+	margin-left: 20%;
+}
+
+@media (max-width: 1200px) {
+	#history_html {
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 1000px) {
+	footer ul {
+		margin-left: 3%;
+	}
+}
+
+
 /*
 table {
 	margin-left: ;

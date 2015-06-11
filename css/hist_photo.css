@@ -2,6 +2,10 @@
 
 body {
 	background-color: rgba(157,154,145,1);
+	
+}
+
+#wrapper {
 	width: 900px;
 	margin: 30px auto 30px auto;
 }

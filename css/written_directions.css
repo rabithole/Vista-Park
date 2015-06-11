@@ -9,6 +9,10 @@ body {
 	font-family: arimo;
 }
 
+#wrapper {
+	
+}
+
 @font-face {
 	font-family: arimo;
 	src: url(../fonts/arimo-regular-webfont.eot),

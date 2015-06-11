@@ -33,14 +33,6 @@ article {
 	
 }
 
-#left {
-	float: left;
-}
-
-#right {
-	float: right;
-}
-
 p {
 	position: relative;
 	clear: both;
@@ -75,4 +67,12 @@ ol {
 
 #reserve a {
 	font-size: 1.4em;
+}
+
+footer {
+	bottom: -100px;
+}
+
+td {
+	border-right: none;
 }

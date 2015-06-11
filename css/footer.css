@@ -7,21 +7,60 @@ body {
 footer {
 	border-top: 5px solid #fff;
 	position: relative;
-	height: 70px;
+	height: 100px;
 	width: 101%;
 	left: -10px;
 	background-color: rgba(51,51,51,1);
-	margin-bottom: -8px;
 	color: #fff;
 }
 
+footer ul {
+	list-style-type: none;
+	margin-left: 30%;
+}
+
+@media (max-width: 1200px) {
+	footer ul {
+		margin-left: 15%;
+	} 
+}
+
+@media (max-width: 1620px) {
+	footer ul {
+		margin-left: 22%;
+	}
+}
+
+footer li {
+	float: left;
+	margin-left: ;
+	border-right: 1px solid #fff;
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 70px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #c00;
+}
+
+footer p {
+	display: inline;
+}
+/*
 table {
-	margin-left: 20%;
+	margin-left: ;
 }
 
 td {
-	padding: 0 30px;
+	padding: ;
 	border-right: 1px solid #fff;
+	
 }
 table a {
 	text-decoration: none;
@@ -38,4 +77,15 @@ footer p {
 	width: inherit;
 	height: 10px;
 	text-shadow: none;
+	background-color: rgba(51,51,51,1);
+	box-shadow: none;
 }
+
+footer a {
+	
+}
+
+footer p {
+	display: inline;
+}
+*/

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="nav_bar.css" server="ftp.vista-park.org//public_html/" local="130784485142751771" remote="130784522400000000" Dst="2" />
+<file name="nav_bar.css" server="ftp.vista-park.org//public_html/" local="130785177074976399" remote="130785213600000000" Dst="2" />
 <file name="slideshow.css" server="ftp.vista-park.org//public_html/" local="130756940979665294" remote="130770675600000000" Dst="2" />
 <file name="images.css" server="ftp.vista-park.org//public_html/" local="130770634833849550" remote="130770675600000000" Dst="2" />
 <file name="google_map.css" server="ftp.vista-park.org//public_html/" local="130431323960000000" remote="130770675600000000" Dst="2" />
-<file name="hist_photo.css" server="ftp.vista-park.org//public_html/" local="130507082280000000" remote="130770675600000000" Dst="2" />
-<file name="rates.css" server="ftp.vista-park.org//public_html/" local="130770634833849550" remote="130770675600000000" Dst="2" />
-<file name="reserve_contact.css" server="ftp.vista-park.org//public_html/" local="130784468488440007" remote="130784522400000000" Dst="2" />
-<file name="rv.css" server="ftp.vista-park.org//public_html/" local="130493933030000000" remote="130770675600000000" Dst="2" />
-<file name="tent.css" server="ftp.vista-park.org//public_html/" local="130509581560000000" remote="130770675600000000" Dst="2" />
-<file name="written_directions.css" server="ftp.vista-park.org//public_html/" local="130770634833849550" remote="130770675600000000" Dst="2" />
+<file name="hist_photo.css" server="ftp.vista-park.org//public_html/" local="130784797974552085" remote="130785213600000000" Dst="2" />
+<file name="rates.css" server="ftp.vista-park.org//public_html/" local="130784772499895622" remote="130785213600000000" Dst="2" />
+<file name="reserve_contact.css" server="ftp.vista-park.org//public_html/" local="130784772499895622" remote="130785213600000000" Dst="2" />
+<file name="rv.css" server="ftp.vista-park.org//public_html/" local="130784797974562104" remote="130785213600000000" Dst="2" />
+<file name="tent.css" server="ftp.vista-park.org//public_html/" local="130784797974572099" remote="130785213600000000" Dst="2" />
+<file name="written_directions.css" server="ftp.vista-park.org//public_html/" local="130785177422833150" remote="130785213600000000" Dst="2" />
 <file name="yurt.css" server="ftp.vista-park.org//public_html/" local="130770634833849550" remote="130770675600000000" Dst="2" />
 <file name="park_map.css" server="ftp.vista-park.org//public_html/" local="130756901199342563" remote="130770675600000000" Dst="2" />
 <file name="nav_bar.css" server="vista-park.org" local="130494963240000000" remote="130500234600000000" Dst="2" />
@@ -26,11 +26,12 @@
 <file name="yurt.css" server="vista-park.org" local="130493343280000000" remote="130500234600000000" Dst="2" />
 <file name="nav_bar.css" server="vista-park.org//public_html/" local="130502210357869767" remote="130502246400000000" Dst="2" />
 <file name="contact.css" server="ftp.vista-park.org//public_html/" local="130427454670000000" remote="130770675600000000" Dst="2" />
-<file name="footer.css" server="ftp.vista-park.org//public_html/" local="130784468488399993" remote="130784522400000000" Dst="2" />
+<file name="footer.css" server="ftp.vista-park.org//public_html/" local="130785177422813154" remote="130785213600000000" Dst="2" />
 <file name="photos.css" server="ftp.vista-park.org//public_html/" local="130495147570000000" remote="130770675600000000" Dst="2" />
-<file name="local.css" server="ftp.vista-park.org//public_html/" local="130770634833849550" remote="130770675600000000" Dst="2" />
+<file name="local.css" server="ftp.vista-park.org//public_html/" local="130785177422823149" remote="130785213600000000" Dst="2" />
 <file name="events.css" server="ftp.vista-park.org//public_html/" local="130770634833849550" remote="130770675600000000" Dst="2" />
-<file name="rules.css" server="ftp.vista-park.org//public_html/" local="130784468488470011" remote="130784522400000000" Dst="2" />
-<file name="history.css" server="ftp.vista-park.org//public_html/" local="130530594565548636" remote="130770675600000000" Dst="2" />
+<file name="rules.css" server="ftp.vista-park.org//public_html/" local="130784772499905624" remote="130785213600000000" Dst="2" />
+<file name="history.css" server="ftp.vista-park.org//public_html/" local="130784797974552085" remote="130785213600000000" Dst="2" />
 <file name="redman.css" server="ftp.vista-park.org//public_html/" local="130507399480000000" remote="130770675600000000" Dst="2" />
+<file name="rates_footer.css" server="ftp.vista-park.org//public_html/" local="130784743179142315" remote="130785213600000000" Dst="2" />
 </dwsync>

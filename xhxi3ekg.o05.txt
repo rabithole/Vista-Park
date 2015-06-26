@@ -1,0 +1,20 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch footer
+# Changes to be committed:
+#	modified:   css/footer.css
+#	modified:   css/reserve_contact.css
+#	modified:   css/rules.css
+#	modified:   local_attractions.html
+#	modified:   park_map.html
+#	modified:   rates.html
+#	modified:   reserve.html
+#	modified:   rules.html
+#
+# Untracked files:
+#	.metadata/
+#	ukusurmk.bcf.txt
+#	xavymj01.osm.txt
+#
+
